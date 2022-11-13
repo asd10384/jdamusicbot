@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.tkrmagid'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("net.dv8tion:JDA:5.0.0-alpha.22")
+    implementation("io.github.cdimascio:java-dotenv:5.2.2")
+}
+
+compileJava.options.encoding = "UTF-8"
